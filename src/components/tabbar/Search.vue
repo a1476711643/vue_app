@@ -1,13 +1,14 @@
 <template>
     <div>
-        123
+        <h1>Search组件</h1>
     </div>
 </template>
+
 <script>
 export default {
-    data(){
+    data() {
         return {
-
+            
         }
     },
     created() {
@@ -18,7 +19,6 @@ export default {
     },
 }
 </script>
-
-<style lang="scss">
+<style lang="scss" scoped>
     
 </style>
