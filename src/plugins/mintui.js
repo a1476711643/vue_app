@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Button, Cell, Header, Swipe, SwipeItem, Tabbar, TabItem } from 'mint-ui'
+import { Button, Cell, Header, Swipe, SwipeItem, Tabbar, TabItem,Toast  } from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
 //导入mui样式表
@@ -14,3 +14,4 @@ Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 Vue.component(Tabbar.name, Tabbar);
 Vue.component(TabItem.name, TabItem);
+Vue.prototype.$toast = Toast; //全局绑定提示信息组件

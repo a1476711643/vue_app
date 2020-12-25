@@ -31,7 +31,7 @@ export default {
   methods: {
     async getNewsList() {
         // 处理异步
-      const { data: res } = await this.$http.get("api/getnewslist");
+      const { data: res } = await this.$http.get("getnewslist");
       if(res.status != 0) return;
       this.newsMessage = res.message;
       console.log(this.newsMessage);
