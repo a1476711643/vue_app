@@ -1,6 +1,6 @@
 # vue_app
 
-<<<<<<< HEAD
+「大幕未起便已开始的故事」
 ## Project setup
 ```
 npm install
